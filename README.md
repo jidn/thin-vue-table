@@ -1,7 +1,7 @@
 
 # thin-vue-table
 [![Build Status](https://travis-ci.org/jidn/thin-vue-datatable.svg?branch=master)](https://travis-ci.org/jidn/thin-vue-datatable)
-[![GitHub open issues](https://img.shields.io/github/issues/jidn/thin-vue-datatable.svg)](https://github.com/jidn/thin-vue-datatable/issues)
+[![GitHub open issues](https://img.shields.io/github/issues/jidn/thin-vue-datatable.svg)](https://github.com/jidn/thin-vue-table/issues)
 [![Npm version](https://img.shields.io/npm/v/thin-vue-table.svg)](https://www.npmjs.com/package/thin-vue-table)
 ![GitHub](https://img.shields.io/github/license/jidn/thin-vue-table.svg)
 
