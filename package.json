@@ -1,12 +1,12 @@
 {
-  "name": "v-datatable-light",
+  "name": "thin-vue-table",
   "version": "0.7.0",
   "private": false,
   "description": "A lightweight vue datatable component with no dependencies",
-  "author": "Aquiles Boff da Silva <akilesb@gmail.com>",
+  "author": "Clinton James <clinton@jidn.com>",
   "scripts": {
     "serve": "vue-cli-service serve ./example/main.js --open",
-    "build": "vue-cli-service build --name v-datatable-light --entry ./src/index.js --target lib",
+    "build": "vue-cli-service build --name thin-vue-table --entry ./src/index.js --target lib",
     "lint": "vue-cli-service lint",
     "prepublishOnly": "npm run lint && npm run build",
     "test": "vue-cli-service test:unit"
@@ -55,9 +55,9 @@
     "not ie <= 8"
   ],
   "bugs": {
-    "url": "https://github.com/aquilesb/v-datatable/issues"
+    "url": "https://github.com/jidn/thin-vue-table/issues"
   },
-  "homepage": "https://github.com/aquilesb/v-datatable#readme",
+  "homepage": "https://github.com/jidn/thin-vue-table#readme",
   "keywords": [
     "vue",
     "component",
@@ -66,10 +66,10 @@
     "no-dependencies"
   ],
   "license": "MIT",
-  "main": "dist/v-datatable-light.umd.min.js",
+  "main": "dist/thin-vue-table.umd.min.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aquilesb/v-datatable.git"
+    "url": "git+https://github.com/jidn/thin-vue-table.git"
   },
   "jest": {
     "transform": {

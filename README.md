@@ -1,9 +1,9 @@
 
-# v-datatable-light
-[![Build Status](https://travis-ci.org/aquilesb/v-datatable-light.svg?branch=master)](https://travis-ci.org/aquilesb/v-datatable-light)
-[![GitHub open issues](https://img.shields.io/github/issues/aquilesb/v-datatable-light.svg)](https://github.com/aquilesb/v-datatable-light/issues)
-[![Npm version](https://img.shields.io/npm/v/v-datatable-light.svg)](https://www.npmjs.com/package/v-datatable-light)
-![GitHub](https://img.shields.io/github/license/aquilesb/v-datatable-light.svg)
+# thin-vue-table
+[![Build Status](https://travis-ci.org/jidn/thin-vue-datatable.svg?branch=master)](https://travis-ci.org/jidn/thin-vue-datatable)
+[![GitHub open issues](https://img.shields.io/github/issues/jidn/thin-vue-datatable.svg)](https://github.com/jidn/thin-vue-datatable/issues)
+[![Npm version](https://img.shields.io/npm/v/thin-vue-table.svg)](https://www.npmjs.com/package/thin-vue-table)
+![GitHub](https://img.shields.io/github/license/jidn/thin-vue-table.svg)
 
 ## Usage
 ```HTML
@@ -13,7 +13,7 @@
 />
 ```
 ```javascript
-import { DataTable } from 'v-datatable-light'
+import { DataTable } from 'thin-vue-table'
 
 export default {
   components: {
@@ -61,7 +61,7 @@ export default {
 | format            | function         | false    | null    | A function used to format a value in each line of the DataTable's body.                                         |
 | width             | string           | false    | null    | String used to define column width. Only used when 'tableHeight' props is informed.                             |
 | __slot:actions    | string           | false    | null    | Used to create a new column to be used for buttons or any kind of action. You have to inform the slot 'actions' and it will be rendered inside each line. In case you want to use more than one action in the same table, you can inform different IDs for each one, and this ID will be used as the slot ID. The format would be: `__slot:actions:myActionID`, in this case `myActionID` is the slot ID|
-| __slot:checkboxes | string           | false    | null    | Used to create a column with a checkbox. Every time you check or uncheck an item an event is emited.            |    
+| __slot:checkboxes | string           | false    | null    | Used to create a column with a checkbox. Every time you check or uncheck an item an event is emited.            |
 
 
 ## DataTable Css Props Structure
@@ -118,13 +118,13 @@ export default {
 ## ItemsPerPageDropdown Events
 | Event Name          | Description| Params |
 |---------------------|------------|--------|
-|on-update| Called every time the user change the number of items per page | Next items per page number |	
+|on-update| Called every time the user change the number of items per page | Next items per page number |
 
 
 
 ## Installation
 ```
-npm install v-datatable-light
+npm install thin-vue-table
 ```
 
 ## Project setup
